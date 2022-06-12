@@ -32,12 +32,13 @@ h2.entry-title a{color:7bff;font-weight:700}
 .carousel-home a{color:#fff;text-shadow:0 4px 8px #000;transition:text-shadow .5s}
 .carousel-home a:hover{text-decoration:none;text-shadow:0 0 8px #000;transition:text-shadow .5s}
 .carousel-home a:active{text-decoration:none;text-shadow:0 4px 8px #000;transition:text-shadow .5s}
-.carousel-home .carousel-item::before{content:'';position:absolute;width:100%;height:100%;background-color:#000;opacity:.3}
+.carousel-home .carousel-item::before{content:"";position:absolute;width:100%;height:100%;background-color:#000;opacity:.3}
 .carousel-control-next,.carousel-control-prev{opacity:1!important;transition:background-color 1s}
 .carousel-control-next:hover,.carousel-control-prev:hover{background-color:rgba(0,0,0,.2);transition:background-color 1s}
 .carousel-indicators{margin-bottom:0}
 .carousel-indicators li{height:20px;width:60px;border-bottom:0;margin-bottom:10px;border-top:0;margin-top:10px;box-shadow:0 1px 2px #000;transition:box-shadow 1s}
 .carousel-indicators li.active{box-shadow:0 4px 5px #000;transition:box-shadow .5s}
+.ads-wrapper{overflow:hidden}
 .ads-wrapper-entry-posts-before{margin-bottom:3rem}
 .ads-wrapper-entry-posts-after{margin-top:3rem}
 .ads-wrapper>div{box-shadow:0 0 3px 2px #639}
@@ -111,10 +112,14 @@ ul.dropdown-menu.show ul.dropdown-menu{left:50px;top:30px}
 .comments-wrapper .form-submit{margin-bottom:0}
 .comments-wrapper .submit{background-color:#90ee90;border:1px solid;padding:20px;font-size:20px;border-radius:10px}
 .post-edit-link{display:inline-block;margin:5px 0;text-align:right;width:100%}
+.wp-block-code{padding:3px}
+.wp-block-code code{border:none}
 .sidebar-main-container{text-align:right}
 .sidebar-main-container li{list-style:none}
 .sidebar-my-adds-col{margin:0 0 40px 0!important}
-.sidebar-my-adds-col>div{padding:0;margin-top:40px;box-shadow:#663399 0 0 3px 2px}
+.sidebar-my-adds-col>div{padding:0;margin-top:40px;box-shadow:#639 0 0 3px 2px}
+.sidebar-main-container li::marker{content:"· ";color:#077efe;margin-right:20px}
+.sidebar-main-container .popular-post-item::marker{content:""}
 .sidebar-mailchimp #mc_embed_signup form{display:block;position:relative;text-align:left;padding:10px}
 .sidebar-mailchimp #mc_embed_signup h2{font-weight:700;padding:0;margin:15px 0;font-size:1.4em}
 .sidebar-mailchimp #mc_embed_signup input{border:1px solid #abb0b2;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}

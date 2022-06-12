@@ -160,3 +160,11 @@ figure.wp-block-image {
     text-align: right;
     width: 100%;
 }
+
+.wp-block-code {
+    padding: 3px;
+
+    code {
+        border: none;
+    }
+}
