@@ -30,14 +30,6 @@ defined('ABSPATH') or die();
         } else {
             $intro_text_width = ' thin';
         }
-
-        if (has_excerpt() && is_singular()) {
-            ?>
-            <div class="intro-text section-inner max-percentage<?php echo $intro_text_width; ?>">
-                <?php the_excerpt(); ?>
-            </div>
-            <?php
-        }
         ?>
     </div>
 </header>
