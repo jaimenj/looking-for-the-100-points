@@ -1,7 +1,7 @@
 {
   "name": "looking-for-the-100-points",
-  "version": "1.0.0",
-  "description": "=== Looking for the 100 points === Contributors: jaimenj Tested up to: 5.5 Stable tag: 0.1 License: GPLv2 or later License URI: http://www.gnu.org/licenses/gpl-2.0.html",
+  "version": "0.1",
+  "description": "=== Looking for the 100 points === Contributors: jaimenj Tested up to: 6.0 Stable tag: 1 License: MIT",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,19 +18,19 @@
   "homepage": "https://github.com/jaimenj/looking-for-the-100-points#readme",
   "dependencies": {
     "bootstrap": "^4.5.3",
-    "fs-extra": "^9.0.1",
+    "fs-extra": "^10.1.0",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
     "gulp-if": "^3.0.0",
     "gulp-remove-empty-lines": "^0.1.0",
     "gulp-rename": "^2.0.0",
-    "gulp-sass": "^4.1.0",
-    "gulp-sourcemaps": "^2.6.5",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
     "gulp-strip-comments": "^2.5.2",
-    "gulp-terser": "^1.4.1",
-    "jquery": "^3.5.1",
-    "popper.js": "^1.16.1"
-  },
-  "devDependencies": {}
+    "gulp-terser": "^2.1.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
+    "sass": "^1.52.3"
+  }
 }

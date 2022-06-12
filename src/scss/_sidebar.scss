@@ -1,4 +1,3 @@
-
 // MAIN SIDEBAR ///////////////////////////////////////////////////////////////////
 
 .sidebar-main-container {
@@ -17,6 +16,18 @@
     padding: 0px;
     margin-top: 40px;
     box-shadow: rgb(102, 51, 153) 0px 0px 3px 2px;
+}
+
+.sidebar-main-container {
+    li::marker {
+        content: '· ';
+        color: #077efe;
+        margin-right: 20px;
+    }
+
+    .popular-post-item::marker {
+        content: '';
+    }
 }
 
 // Styles extracted from Mailchimp..
