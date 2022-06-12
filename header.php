@@ -45,6 +45,12 @@ defined('ABSPATH') or die();
         });
         ga('send', 'pageview');
         </script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-M1PPTJHZ81"></script>
+        <script>window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-M1PPTJHZ81');
+        </script>
     <?php } //<!-- END GOOGLE ANALYTICS ?>
 </head>
 <body <?php body_class('container-fluid'); ?>>
@@ -102,7 +108,7 @@ wp_body_open();
         ]);
         ?>
         <form class="form-inline form-navbar-search" action="/" method="get">
-            <input class="form-control" type="search" placeholder="Buscar" aria-label="Search" name="s" value="<?= $_GET['s']; ?>">
+            <input class="form-control" type="search" placeholder="Buscar" aria-label="Search" name="s" value="<?= isset($_GET['s']) ? $_GET['s'] : '' ?>">
             <button class="btn btn-outline-success btn-navbar-search" type="submit">Buscar</button>
         </form>
     </nav>
